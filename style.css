@@ -1,14 +1,39 @@
+.resizeimage img { width: 100vw; }
+	
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-.button-group, .profile-group{
-  margin: 30px 0;
-}
-.button-group .button-row{
-  text-align: center;
+table th,table td{
+  padding: 15px 0 15px 2em;
+  text-align: left;
 }
 
-.profile-group img{
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  border-radius: 50% !important;
+table tr:nth-child(odd){
+  background-color: #eee
 }
+
+.resizeimage img { width: 100vw; }
+
+/*以下フェードイン表示の指定*/
+.fadein {
+    opacity: 0;
+    animation: fadein 3s ease forwards;
+}
+@keyframes fadein {
+    100% {  opacity: 1;}
+}
+ 
+/*以下遅延の指定*/
+.txt01 {animation-delay: 1s;}
+.txt02 {animation-delay: 1.2s;}
+.txt03 {animation-delay: 1.3s;}
+.txt04 {animation-delay: 1.4s;}
+.txt05 {animation-delay: 1.5s;}
+.txt06 {animation-delay: 1.6s;}
+.txt07 {animation-delay: 1.7s;}
+.txt08 {animation-delay: 1.8s;}
+.txt09 {animation-delay: 1.9s;}
+.txt10 {animation-delay: 2s;}

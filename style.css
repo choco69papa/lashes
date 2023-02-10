@@ -27,13 +27,13 @@ table tr:nth-child(odd){
 }
  
 /*以下遅延の指定*/
-.txt01 {animation-delay: 1s;}
-.txt02 {animation-delay: 1.2s;}
-.txt03 {animation-delay: 1.3s;}
-.txt04 {animation-delay: 1.4s;}
-.txt05 {animation-delay: 1.5s;}
-.txt06 {animation-delay: 1.6s;}
-.txt07 {animation-delay: 1.7s;}
-.txt08 {animation-delay: 1.8s;}
-.txt09 {animation-delay: 1.9s;}
-.txt10 {animation-delay: 2s;}
+.txt01 {animation-delay: 0s;}
+.txt02 {animation-delay: 1s;}
+.txt03 {animation-delay: 2s;}
+.txt04 {animation-delay: 3s;}
+.txt05 {animation-delay: 4s;}
+.txt06 {animation-delay: 5s;}
+.txt07 {animation-delay: 6s;}
+.txt08 {animation-delay: 7s;}
+.txt09 {animation-delay: 8s;}
+.txt10 {animation-delay: 9s;}

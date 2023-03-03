@@ -1,16 +1,19 @@
 .resizeimage img { width: 100vw; }
 
- h2 { font-size: 2.4rem; font-size:24px; }
-
-.underline {
-	border-bottom: 3px solid #000;
-	padding-bottom: 0.5rem;
+.span-5{
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.span-8 {
-    flex: 0 0 65.3333333333%;
-    max-width: 65.3333333333%;
-    padding-left: 30px;
+.span-5>div{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px 8px 20px;
+}
+.span-10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 3px 3px 0 3px;
+    padding: 3px 3px 0 3px;
 }
 
 .resizeimage img { width: 100vw; }
@@ -25,81 +28,13 @@
 }
  
 /*以下遅延の指定*/
-.row01 {
-    animation-delay: 1s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row02 {
-    animation-delay: 1.1s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row03 {
-    animation-delay: 1.2s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row04 {
-    animation-delay: 1.3s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row05 {
-    animation-delay: 1.4s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row06 {
-    animation-delay: 1.5s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row07 {
-    animation-delay: 1.6s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row08 {
-    animation-delay: 1.7s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row09 {
-    animation-delay: 1.8s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.row10 {
-    animation-delay: 1.9s;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    width: 100%;
-}
-.col {
-    display: block;
-    flex: 1 1 auto;
-    margin-left: 0;
-    max-width: 100%;
-    width: 100%;
-    padding-left: 5px;
-}
+.row01 {animation-delay: 1s;}
+.row02 {animation-delay: 1.1s;}
+.row03 {animation-delay: 1.2s;}
+.row04 {animation-delay: 1.3s;}
+.row05 {animation-delay: 1.4s;}
+.row06 {animation-delay: 1.5s;}
+.row07 {animation-delay: 1.6s;}
+.row08 {animation-delay: 1.7s;}
+.row09 {animation-delay: 1.8s;}
+.row10 {animation-delay: 1.9s;}

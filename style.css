@@ -16,8 +16,6 @@
     padding: 3px 3px 0 3px;
 }
 
-.resizeimage img { width: 100vw; }
-
 /*以下フェードイン表示の指定*/
 .fadein {
     opacity: 0;
